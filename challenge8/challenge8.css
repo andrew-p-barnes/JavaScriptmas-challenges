@@ -1,0 +1,40 @@
+body {
+    background-color: #AEB8FE;
+    display: flex;
+}
+
+.dice {
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+    background-color: #EFE5DC;
+    margin: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dot {
+    border-radius: 15px;
+    background-color: black;
+}
+
+.dice div {
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
+
+#result {
+    font: 1.5em Arial;
+    color: black;
+    margin: 0px 0px 0px 70px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+.hide {
+    visibility: hidden;
+}
